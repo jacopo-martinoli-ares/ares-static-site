@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARES S.r.l. - Training Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="templatemo-621-luminary-style.css">
+  <!--
+TemplateMo 621 Luminary
+https://templatemo.com/tm-621-luminary
+-->
+  <style>
+    /* Base container setup */
+    .banner-container {
+      margin-top: 10%;
+      width: 100%;
+      background-color: #070F43;
+      /* Deep navy background matching your logo */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 1.5rem;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    /* Responsive banner image styling */
+    .banner-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      /* Crisp rendering for modern displays */
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+    }
+
+    /* --------------------------------------------------
+   Adaptive Breakpoints (Media Queries)
+   -------------------------------------------------- */
+
+    /* 1. Large Screens & Desktops (1200px and up) */
+    @media (min-width: 1200px) {
+      .banner-container {
+        padding: 5rem 2rem;
+        min-height: 400px;
+      }
+
+      .banner-image {
+        max-width: 800px;
+        /* Constrains logo width on ultrawide monitors */
+      }
+    }
+
+    /* 2. Tablets & Small Laptops (768px to 1199px) */
+    @media (max-width: 1199px) and (min-width: 768px) {
+      .banner-container {
+        padding: 3.5rem 1.5rem;
+        min-height: 300px;
+      }
+
+      .banner-image {
+        max-width: 85%;
+      }
+    }
+
+    /* 3. Mobile Devices (Under 768px) */
+    @media (max-width: 767px) {
+      .banner-container {
+        padding: 2.5rem 1rem;
+        min-height: 220px;
+      }
+
+      .banner-image {
+        max-width: 95%;
+      }
+    }
+
+    /* 4. Small Mobile / Narrow Screens (Under 480px) */
+    @media (max-width: 479px) {
+      .banner-container {
+        padding: 1.5rem 0.75rem;
+        min-height: 180px;
+      }
+
+      .banner-image {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <svg class="grain" width="100%" height="100%">
+    <filter id="n">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="5" stitchTiles="stitch" />
+      <feColorMatrix type="saturate" values="0" />
+    </filter>
+    <rect width="100%" height="100%" filter="url(#n)" />
+  </svg>
+  <div class="atmosphere"></div>
+
+  <!-- Nav -->
+  <nav class="top-nav" id="topNav">
+    <a href="#" class="nav-brand">ARES S.r.l.</a>
+    <ul class="nav-links">
+      <li><a href="#whoarewe">Chi siamo</a></li>
+      <li><a href="#projects">Attività &amp; Progetti</a></li>
+    </ul>
+    <a href="#contacts" class="nav-cta">Contatti</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span class="toggle-bar"></span><span class="toggle-bar"></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-inner">
+      <div class="mobile-menu-links">
+        <a href="#" class="mobile-menu-link">Home</a>
+        <a href="#whoarewe" class="mobile-menu-link">Chi siamo</a>
+        <a href="#projects" class="mobile-menu-link">Attività &amp; Progetti</a>
+        <a href="#contacts" class="mobile-menu-link">Contatti</a>
+      </div>
+      <div class="mobile-menu-footer">
+        <p>ARES S.r.l.</p>
+        <p>Via XX Settembre, Novara (NO) 28100</p>
+        <p>Codice fiscale P.IVA: 02791670033</p>
+        <p>Capitale sociale: €10,000.00</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Side Panels -->
+  <nav class="side-panel left" aria-label="Scroll indicators">
+    <div class="side-track">
+      <div class="side-track-fill" id="leftTrack"></div>
+    </div>
+  </nav>
+
+  <nav class="side-panel right" aria-label="Status indicators">
+    <div class="side-track">
+      <div class="side-track-fill" id="rightTrack"></div>
+    </div>
+  </nav>
+
+  <main class="main">
+
+    <!-- ═══ HERO ═══ -->
+    <section class="banner-container" id="hero">
+      <img src="logoHQ.jpeg" class="banner-image" />
+    </section>
+
+    <!-- ═══ LOGO TICKER ═══ -->
+    <div class="logo-ticker reveal">
+      <div class="logo-ticker-label">Il tuo partner informatico di fiducia</div>
+    </div>
+
+    <!-- ═══ CHI SIAMO ═══ -->
+    <section class="section" id="whoarewe">
+
+      <div class="feature reveal">
+        <div class="feature-visual">
+          <img src="img1.jpg" alt="Img1">
+        </div>
+        <div class="feature-content">
+          <h2 class="section-title">Chi siamo</h2>
+          <p class="section-body">
+            Nata nel 2024, ARES S.r.l. si propone come partner tecnologico di riferimento per la <span
+              style="color: rgb(255, 255, 255);">digitalizzazione</span> e la protezione delle infrastrutture critiche
+            del trasporto. Siamo specializzati nella <span style="color: rgb(255, 255, 255);">consulenza
+              informatica</span>, nello <span style="color: rgb(255, 255, 255);">sviluppo software</span> su misura e
+            nella <span style="color: rgb(255, 255, 255);">cybersecurity</span> ad altissimo livello, con un focus
+            verticale rivolto all'ambito intermodale italiano.
+          </p>
+          <br />
+
+        </div>
+      </div>
+
+      <div class="feature reverse reveal">
+        <div class="feature-visual">
+          <img src="img2.jpeg" alt="Img2">
+        </div>
+        <div class="feature-content">
+          <h2 class="section-title">Cosa facciamo</h2>
+          <p class="section-body">
+            Progettare software per la logistica richiede non solo padronanza tecnologica, ma anche una profonda
+            conoscenza del quadro regolamentare. Il nostro team si mantiene costantemente aggiornato sulle <span
+              style="color: rgb(255, 255, 255);">evoluzioni legislative italiane ed europee</span> in materia di
+            sicurezza informatica e gestione dei dati — come la <i>direttiva NIS2</i>, le normative sulla resilienza
+            operativa e gli standard di protezione delle infrastrutture critiche. Questo ci permette di sviluppare
+            soluzioni <i>Security by Design</i>, capaci di <span style="color: rgb(255, 255, 255);">proteggere</span> i
+            vostri sistemi gestionali e di varco contro minacce cibernetiche complesse e di assicurarvi la totale <span
+              style="color: rgb(255, 255, 255);">conformità</span> con le direttive di settore.
+          </p>
+        </div>
+      </div>
+
+      <div class="feature reveal">
+        <div class="feature-visual">
+          <img src="img3.jpeg" alt="Img3">
+        </div>
+        <div class="feature-content">
+          <h2 class="section-title">Il metodo</h2>
+          <p class="section-body">
+            Crediamo che ogni intervento tecnologico debba nascere da un'analisi approfondita delle reali <span
+              style="color: rgb(255, 255, 255);">esigenze operative</span> di chi lo utilizza. Per questo poniamo
+            l'<span style="color: rgb(255, 255, 255);">ascolto</span> e il <span
+              style="color: rgb(255, 255, 255);">confronto</span> costante al centro del nostro lavoro, affiancando il
+            cliente in tutte le fasi: dalla valutazione iniziale dei rischi e dei fabbisogni, alla progettazione delle
+            soluzioni, fino all'assistenza e al monitoraggio nel tempo. Il nostro obiettivo è costruire una <span
+              style="color: rgb(255, 255, 255);">partnership di fiducia</span> duratura, offrendo un supporto flessibile
+            e trasparente capace di garantire la massima sicurezza, efficienza e continuità per le vostre attività.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <hr size="1" />
+
+    <!-- ═══ PROGETTI ═══ -->
+    <section class="section section-center" id="projects">
+      <h2 class="section-title reveal reveal-d1" style="margin-bottom: 10%;">Attività &amp; Progetti</h2>
+
+      <div class="pricing-card reveal reveal-d1">
+        <div class="pricing-tier">Adeguamento e normalizzazione operativa NIS2</div>
+        <p class="pricing-desc">La direttiva europea NIS2, adottata anche in Italia, impone nuovi e stringenti requisiti
+          di sicurezza informatica e gestione del rischio alle aziende del settore dei trasporti, della logistica e
+          delle infrastrutture critiche. Supportiamo la vostra organizzazione nel percorso di allineamento normativo,
+          trasformando gli obblighi di legge in un'opportunità per rafforzare la resilienza operativa, proteggere i dati
+          e garantire la continuità dei servizi aziendali.</p>
+        <ul class="pricing-features">
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Gap Analysis & Audit Preliminare</span>: Valutazione del livello
+              di maturità digitale della struttura ed identificazione delle difformità rispetto ai requisiti fissati
+              dalla direttiva NIS2.</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Risk Assessment & Gestione del Rischio</span>: Analisi formale
+              dei rischi informatici e definizione delle misure di sicurezza tecniche e organizzative per la loro
+              mitigazione.</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Redazione delle Politiche di Sicurezza</span>: Sviluppo e
+              aggiornamento della documentazione d'impatto (Policy di Sicurezza dei Sistemi, gestione degli accessi,
+              controllo degli asset e riservatezza).</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Gestione della Supply Chain Security</span>: Verifica e messa in
+              sicurezza della catena di fornitura, valutando il livello di rischio informatico introdotto da fornitori
+              terzi e partner di servizio.</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Piani di Incident Response & Business Continuity</span>:
+              Definizione dei protocolli operativi per il rilevamento, la gestione e la notifica tempestiva degli
+              incidenti cibernetici, oltre alla redazione dei piani di disaster recovery.</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Formazione & Awareness del Personale</span>: Programmi di
+              addestramento sulle buone pratiche di cybersecurity e sui comportamenti di prevenzione dedicati sia al
+              personale dipendente che al management.</p>
+          </li>
+        </ul>
+        <a href="https://www.acn.gov.it/portale/nis" target="_blank" class="btn-secondary" style="margin: auto;">Scopri di più sulla
+          direttiva</a>
+      </div>
+
+      <div class="pricing-card reveal reveal-d1">
+        <div class="pricing-tier">Vulnerability Assessment & Penetration Testing (VA/PT)</div>
+        <p class="pricing-desc">I sistemi gestionali e le infrastrutture di varco della logistica sono bersagli primari
+          per attacchi informatici e ransomware. Identifichiamo ed eliminiamo le vulnerabilità della vostra rete prima
+          che possano essere sfruttate da malintenzionati, simulando attacchi reali e testando la tenuta dei vostri
+          sistemi aziendali e operativi senza impattare sulla continuità del servizio.</p>
+        <ul class="pricing-features">
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Network & Infrastructure Vulnerability Assessment</span>:
+              Scansione e analisi periodica della rete aziendale, dei server e degli apparati di rete per individuare
+              falle di sicurezza, misconfigurazioni ed elevazione impropria dei privilegi.</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Penetration Testing Applicativo</span>: Test di intrusione
+              mirati su portali web, software gestionali su misura e interfacce API usate per lo scambio dati con terzi,
+              vettori e clienti</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Analisi della Sicurezza del Codice Sorgente (Secure Code
+                Review)</span>: Audit statico e dinamico del codice sorgente del vostro software per individuare falle
+              di programmazione, vulnerabilità di logica e librerie obsolete, garantendo la conformità ai principi di
+              Security by Design.</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Analisi della Sicurezza su IA Integrata</span>: Audit e testing
+              di sicurezza specifici per modelli di Intelligenza Artificiale e sistemi LLM integrati nelle piattaforme
+              aziendali, per individuare vulnerabilità evolute, garantendo la protezione delle informazioni riservate.
+            </p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Testing di Infrastrutture OT & Varchi</span>: Verifiche di
+              sicurezza dedicate ai sistemi operativi di campo (telecamere OCR, lettori badge, barriere e sensori di
+              varco) per prevenire accessi fisici o digitali non autorizzati.</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Reportistica Executive & Remediation Plan</span>: Consegna di
+              una documentazione dettagliata con la classificazione dei rischi trovati e un piano d'azione prioritario
+              ed economico per la correzione delle vulnerabilità.</p>
+          </li>
+          <li>
+            <p><span style="color: rgb(255, 255, 255);">Retesting di Verifica</span>: Controllo post-intervento per
+              verificare che le correzioni siano state applicate correttamente ed efficacemente</p>
+          </li>
+        </ul>
+        <a href="https://www.acn.gov.it/portale/w/domini-della-cybersicurezza-domini-della-cybersicurezza-assessment-e-testing"
+          target="_blank" class="btn-secondary"
+          style="margin: auto;"
+          >Scopri di più su queste attività</a>
+      </div>
+
+      <div class="pricing-card reveal reveal-d1">
+        <div class="pricing-tier">NexusDock</div>
+        <p class="pricing-desc">
+          <span style="color: rgb(255, 255, 255);">NexusDock</span> è la piattaforma digitale integrata di “Intelligent
+          Truck Parking” finalizzata all'ottimizzazione della pianificazione e della scelta delle operazioni di sosta
+          per il trasporto stradale merci e alla facilitazione delle operazioni gestionali dei gestori delle aree, la
+          quale offre un accesso e una gestione fluida dei <span style="color: rgb(255, 255, 255);">parcheggi</span>
+          siti presso nodi logistici privati, interporti, terminal marittimi e ferroviari, aree di parcheggio e di
+          servizio di concessionari autostradali.
+          NexusDock è un prodotto a marchio <a class="body-link" href="https://arelogik.it/" target="_blank">Arelogik</a>, sviluppato da ARES S.r.l. e
+          finanziato dall'Unione Europea nell'ambito del <span style="color: rgb(255, 255, 255);">Piano Nazionale di
+            Ripresa e Resilienza</span> (PNRR)
+        </p>
+        <a href="https://nexusdock.eu/" target="_blank" class="btn-secondary" style="margin: auto;">Scopri di più su NexusDock</a>
+      </div>
+
+    </section>
+
+    <hr size="1" />
+
+    <!-- ═══ FOOTER CTA ═══ -->
+    <section class="footer-cta" id="contacts">
+      <h2 class="section-title reveal reveal-d1">Contatti</h2>
+      <p class="section-body reveal reveal-d2" style="margin: 0 auto;">
+        Indirizzo e-mail: <a class="body-link" href="mailto:info@ares-tech.net">info@ares-tech.net</a><br/>
+        PEC: <a class="body-link" href="mailto:ares-tech@legalmail.it">ares-tech@legalmail.it</a>
+      </p>
+
+      <div class="footer-bar reveal reveal-d4" style="margin-top: 80px;">
+        <div class="footer-brand">ARES S.r.l. <br/><br/> Via XX Settembre, Novara (NO) 28100</div>
+        <div class="footer-links">
+          C.F. e P.IVA: 02791670033 <br/><br/>
+          Capitale Sociale: €10,000.00
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="templatemo-621-luminary-script.js"></script>
+</body>
+
+</html>
